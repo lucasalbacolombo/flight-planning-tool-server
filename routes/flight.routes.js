@@ -31,7 +31,9 @@ router.get('/flights', isAuth, attachCurrentUser, async (req, res) => {
 	try {
 		const loggedInUser = req.currentUser;
 
-		const userFlights = await FlightModel.find({ user: loggedInUser._id });
+		const userFlights = await FlightModel.find({
+			user: loggedInUser._id,
+		}).populate('aircraft');
 
 		return res.status(200).json(userFlights);
 	} catch (err) {
