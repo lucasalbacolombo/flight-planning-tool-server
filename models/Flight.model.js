@@ -8,6 +8,7 @@ const flightSchema = new Schema({
 	arrival: { type: String, required: true, minLength: 4, maxLength: 4 },
 	alternative: { type: String, required: true, minLength: 4, maxLength: 4 },
 	distance: { type: Number, required: true },
+	flightTime: { type: Number, required: true },
 	aircraft: [{ type: mongoose.Types.ObjectId, ref: 'Aircraft' }],
 });
 
