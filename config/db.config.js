@@ -6,6 +6,7 @@ async function connect() {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 			useCreateIndex: true,
+			useFindAndModify: false,
 		});
 
 		console.log('Connect to DB:', dbConnection.connections[0].name);
