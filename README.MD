@@ -21,7 +21,7 @@ Online Flight planning app designed to make life easier for pilots who fly in Br
 
 ## Project Presentation (slides)
 
-You can find the slides presentation at the following link: [Presentation Here!](https://docs.google.com/presentation/d/1CMWgn8fnYpdoXF4Xz4qvDhpTuG6PiNq7hJmBhPIX88A/edit?usp=sharing)
+You can find the slides presentation at the following link: [Presentation Here!](https://docs.google.com/presentation/d/1y8rJ5ucWptz_FTRhwT4kFvTzR0olDeToyR4EQjZavMQ/edit?usp=sharing)
 
 ## Netlify Deploy
 
